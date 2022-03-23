@@ -1,0 +1,40 @@
+.tab{
+    display: flex;
+}
+
+.heading{
+    cursor: pointer;
+    border: solid 1px #212121;
+    border-right: none;
+    padding: 20px;
+}
+
+.heading:hover{
+    color: rgb(107, 207, 7);
+}
+
+.heading.active{
+    color: rgb(107, 207, 7);
+}
+.tab-content{
+    display: none;
+}
+.tab-content.active{
+    display: flex;
+}
+
+.left-content {
+    padding-left: 4rem;
+    padding-top: 4rem;
+    font-size: 4rem;
+}
+
+.right-content {
+    padding-left: 4rem;
+    padding-top: 4rem;
+}
+
+.img{
+    padding-top: 4rem;
+    width: 500px;
+}
